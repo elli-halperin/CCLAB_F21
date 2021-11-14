@@ -1,0 +1,47 @@
+
+
+body {
+  background-color: #8a4242;
+  margin: 100px 20px;
+  color: #ffb3b3;
+  text-shadow: 2px 2px 5px black;
+  text-align: center;
+}
+
+h1 {
+  text-shadow: 2px 2px 5px black;
+  font-family: 'Creepster', cursive;
+  font-size: 70px;
+}
+
+h2 {
+  text-shadow: 2px 2px 5px black;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+}
+
+p {
+  text-shadow: 2px 2px 5px black;
+  font-family: 'Space Mono', monospace;
+}
+
+#big_text {
+  font-weight: bold;
+}
+
+.slide_text {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  } to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}

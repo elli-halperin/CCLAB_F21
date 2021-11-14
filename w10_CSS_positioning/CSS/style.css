@@ -1,0 +1,27 @@
+html, body {
+  height: 100%
+}
+
+
+body, p, h3 {
+  margin: 0;
+}
+
+
+p {
+  background-color: yellow;
+  color: red;
+}
+
+.box {
+  background-color: lightgrey;
+  width: 120px;
+  height: 150px;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+
+  margin: 30px;
+  padding: 20px;
+}
