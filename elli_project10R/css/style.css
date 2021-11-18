@@ -1,0 +1,58 @@
+html, body {
+  background-color: Cornsilk;
+  color: Maroon;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.text {
+  font-family: cursive;
+  text-align: center;
+  margin: 20px 100px;
+  position: relative;
+  padding: 20px;
+}
+
+.interactionStyle {
+  text-align: center;
+  position: relative;
+
+}
+
+#myContainer {
+  position: relative;
+  left: 10%;
+  top: 3%;
+}
+
+.buttonStyle {
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+
+#b1 {
+  background-color: PaleGoldenrod;
+}
+
+#b2 {
+  background-color: PaleGreen;
+}
+
+#b3 {
+  background-color: MediumSeaGreen;
+}
+
+#b4 {
+  background-color: SeaGreen;
+}
+
+#b5 {
+  background-color: DarkOliveGreen;
+}
