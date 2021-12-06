@@ -4,109 +4,86 @@ html, body {
   background-color: black;
   color: white;
   text-align: center;
+  font-family: 'Special Elite', cursive;
 }
 
 canvas {
   display: block;
+  z-index: -1;
 }
 
+.title-box {
+  background-color: black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 600px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+}
+
+.stages {
+   background-color: rgba(0, 0, 0, 0.5);
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   width: 800px;
+   height: 600px;
+   transform: translate(-50%, -50%);
+   padding-top: 50px;
+}
 
 .container {
-  width:400px;
-  height:190px;
-  background-color:lightgrey;
-  padding-top:50px;
-  padding-left:15px;
-  padding-right:15px;
+  width: 400px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: auto;
-  margin-top:100px;
+  margin-top: 100px;
 }
 
 #door1{
   width:100px;
-  height:100px;
+  height:150px;
+  padding-top: 50px;
   float: left;
-  background-color: red;
+  background-color: black;
 }
 
 #door2{
   width:100px;
-  height:100px;
+  height:150px;
+  padding-top: 50px;
   float: left;
-  background-color: blue;
-  margin-left: 60px;
+  background-color: black;
+  margin-left: 53px;
 }
 
 #door3{
   width:100px;
-  height:100px;
+  height:150px;
+  padding-top: 50px;
   float: right;
-  background-color: green;
+  background-color: black;
 }
 
-#door1_1{
-  width:100px;
-  height:100px;
-  float: left;
-  background-color: red;
+#myContainerB {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
-#door1_2{
-  width:100px;
-  height:100px;
-  float: left;
-  background-color: blue;
-  margin-left: 60px;
+#myContainerG {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
-#door1_3{
-  width:100px;
-  height:100px;
-  float: right;
-  background-color: green;
-}
-
-#door2_1{
-  width:100px;
-  height:100px;
-  float: left;
-  background-color: red;
-
-}
-
-#door2_2{
-  width:100px;
-  height:100px;
-  float: left;
-  background-color: blue;
-  margin-left: 60px;
-}
-
-#door2_3{
-  width:100px;
-  height:100px;
-  float: right;
-  background-color: green;
-}
-
-#door3_1{
-  width:100px;
-  height:100px;
-  float: left;
-  background-color: red;
-}
-
-#door3_2{
-  width:100px;
-  height:100px;
-  float: left;
-  background-color: blue;
-  margin-left: 60px;
-}
-
-#door3_3{
-  width:100px;
-  height:100px;
-  float: right;
-  background-color: green;
+#door_writing {
+  font-family: 'Sancreek', cursive;
+  font-size: 18px;
 }
